@@ -7,12 +7,12 @@
       "version": "0.1.0-beta",
       "date": "2026-06-12",
       "github_tag": "v0.1.0-beta",
-      "github_title": "plagCue v0.1.0-beta — Initial Beta Release",
+      "github_title": "plagCue v0.1.0-beta - Initial Beta Release",
       "asset_url": "https://github.com/plagrizd/plagCue/releases/download/v0.1.0-beta/plagCue.exe",
       "notes": [
-        "Initial beta release — stream alert overlay manager for multi-platform streamers.",
+        "Initial beta release - stream alert overlay manager for multi-platform streamers.",
         "Connects to plagComms via WebSocket and fires custom video or audio alerts in OBS browser sources when stream events occur (subs, donations, gifts, raids, TikTok likes, YouTube superchats, channel point redemptions, and more).",
-        "Supports Twitch, TikTok, and YouTube Live simultaneously — one unified alert system for multi-platform streams.",
+        "Supports Twitch, TikTok, and YouTube Live simultaneously - one unified alert system for multi-platform streams.",
         "Dual-output overlays: independent horizontal (16:9) and vertical (9:16 / TikTok portrait) browser sources, each with their own placement, size, and position settings.",
         "Fixed and random alert placement modes, with a visual drag-and-drop placement editor and random-bounds canvas.",
         "Alert queue system: sequential mode plays alerts one after another; stack mode overlaps them with a configurable gap.",
@@ -23,7 +23,7 @@
         "Built-in Test button per alert to preview exactly what viewers will see without triggering a real event.",
         "Test Events page to inject any event type manually for full end-to-end testing.",
         "Debug page with per-event trigger trace showing which alerts passed, failed, and why.",
-        "Runs entirely on your own machine — no cloud account, no subscription, no third-party alert service."
+        "Runs entirely on your own machine - no cloud account, no subscription, no third-party alert service."
       ]
     }
   ]
