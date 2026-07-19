@@ -1,8 +1,34 @@
 {
-  "version": "0.1.0-beta",
-  "release_date": "2026-06-12",
+  "version": "0.1.1-beta",
+  "release_date": "",
   "download_url": "https://github.com/plagrizd/plagCue/releases/latest",
   "changelog": [
+    {
+      "version": "0.1.1-beta",
+      "date": "",
+      "github_tag": "v0.1.1-beta",
+      "github_title": "plagCue v0.1.1-beta",
+      "asset_url": "https://github.com/plagrizd/plagCue/releases/download/v0.1.1-beta/plagCue.exe",
+      "notes": [
+        "Image alerts: PNG, JPG, JPEG, GIF, and WebP files are now a first-class media type with a configurable display duration (default 5 seconds).",
+        "Auto-detected media type: the Audio/Video dropdown is replaced by a read-only label - type is inferred from the file extension automatically.",
+        "Duplicate alert: every alert card has a duplicate button that creates a copy with a new ID and cleared media path, ready to assign a variant clip.",
+        "Amber border on alerts with no media assigned, so unfinished alerts are immediately visible.",
+        "JSON import and export for alert configurations.",
+        "Placement section hidden for audio alerts - position controls are not relevant for audio-only alerts.",
+        "Competition and weight options hidden unless another alert shares the exact same platform, event type, and conditions.",
+        "Last media directory remembered within the app session.",
+        "Unsaved changes indicator replaced with readable Unsaved Changes! label in alert card headers.",
+        "Unsaved changes exit guard: closing via tray Quit prompts to save, close without saving, or cancel if any alert forms have unsaved changes.",
+        "Tray close behavior: X button minimizes to tray with a notification; tray Quit exits cleanly without triggering the notification.",
+        "Built-in updater: checks for new versions on launch and every 60 seconds, with tray notification and one-click install.",
+        "Audio quality fix: alert audio now routes through the Web Audio API (AudioContext) instead of HTML audio/video elements, bypassing Chromium CEF noise suppression and AGC that caused crunchy distorted audio in OBS browser sources.",
+        "Loudness normalization: every alert's media is analyzed (EBU R128) so all alerts play back at a consistent, matched loudness instead of some being far too quiet. The volume slider's 75% mark is the normalized level - below attenuates, above boosts - with a limiter to prevent clipping. Existing alerts are analyzed automatically in the background on launch.",
+        "Alert sorting: each trigger group has a sort button that cycles through default order, name A-Z, name Z-A, and enabled-first.",
+        "Kick platform support: chat, subscription, gift sub, follow, and raid events from Kick (via plagComms) can now trigger alerts. Kick appears as its own platform section with test events, debug filtering, and an Active Platforms toggle.",
+        "PyInstaller build size reduction: unused imageio transitive dependencies (numpy, Pillow) excluded from the bundle."
+      ]
+    },
     {
       "version": "0.1.0-beta",
       "date": "2026-06-12",
