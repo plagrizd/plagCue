@@ -1,11 +1,26 @@
 {
-  "version": "0.1.1-beta",
-  "release_date": "",
+  "version": "0.1.2-beta",
+  "release_date": "2026-07-19",
   "download_url": "https://github.com/plagrizd/plagCue/releases/latest",
   "changelog": [
     {
+      "version": "0.1.2-beta",
+      "date": "2026-07-19",
+      "github_tag": "v0.1.2-beta",
+      "github_title": "plagCue v0.1.2-beta",
+      "asset_url": "https://github.com/plagrizd/plagCue/releases/download/v0.1.2-beta/plagCue.exe",
+      "notes": [
+        "Room-relay events (chat from other streamers in a multi-streamer room) never trigger alerts - they are for chat display only. Removed the misleading 'from room relay' condition option, which could never match.",
+        "Fix: audio files with embedded album art are no longer misdetected as video and converted to a broken .mp4 - they stay classified as audio.",
+        "Fix: video alerts were playing silently - audio now routes correctly through the Web Audio graph.",
+        "Fix: vertical alerts could look skewed - the overlay now scales alerts to fit the canvas (with clearer browser-source setup guidance).",
+        "Fix: the Placement Editor no longer grows off-screen when its title bar is dragged, and its controls are no longer cut off at the bottom.",
+        "Safeguard: plagCue now warns (and blocks) when the overlay port is set to the same value as the plagComms port - a conflict that made the OBS browser source show 'Detail Not Found'."
+      ]
+    },
+    {
       "version": "0.1.1-beta",
-      "date": "",
+      "date": "2026-07-19",
       "github_tag": "v0.1.1-beta",
       "github_title": "plagCue v0.1.1-beta",
       "asset_url": "https://github.com/plagrizd/plagCue/releases/download/v0.1.1-beta/plagCue.exe",
