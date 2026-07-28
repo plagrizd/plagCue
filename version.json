@@ -11,6 +11,7 @@
       "asset_url": "https://github.com/plagrizd/plagCue/releases/download/v0.1.2-beta/plagCue.exe",
       "notes": [
         "Room-relay events (chat from other streamers in a multi-streamer room) never trigger alerts - they are for chat display only. Removed the misleading 'from room relay' condition option, which could never match.",
+        "Moderator / VIP / subscriber conditions: chat and command alerts can now be gated on whether the chatter is a mod, VIP, or subscriber (read from their chat badges). Available on chat and gigantified-emote events, where this status is present in the data.",
         "Fix: audio files with embedded album art are no longer misdetected as video and converted to a broken .mp4 - they stay classified as audio.",
         "Fix: video alerts were playing silently - audio now routes correctly through the Web Audio graph.",
         "Fix: vertical alerts could look skewed - the overlay now scales alerts to fit the canvas (with clearer browser-source setup guidance).",
