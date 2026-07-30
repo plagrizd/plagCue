@@ -1,8 +1,24 @@
 {
-  "version": "0.1.2-beta",
-  "release_date": "2026-07-19",
+  "version": "0.2.0-beta",
+  "release_date": "",
   "download_url": "https://github.com/plagrizd/plagCue/releases/latest",
   "changelog": [
+    {
+      "version": "0.2.0-beta",
+      "date": "",
+      "github_tag": "v0.2.0-beta",
+      "github_title": "plagCue v0.2.0-beta",
+      "asset_url": "https://github.com/plagrizd/plagCue/releases/download/v0.2.0-beta/plagCue.exe",
+      "notes": [
+        "MAJOR restructure: the old all-in-one alert is split into three clearer pieces — Actions (the media that plays), Triggers (the rules for when it plays), and Queues (playback lanes) — each on its own page. Your existing setup migrates automatically on first launch; nothing is lost and your old config is backed up.",
+        "Actions library: build a video/audio/image once and reuse it across many triggers. Organize actions into collapsible groups, sort within a group (name/type/# triggers) and sort the groups themselves.",
+        "Triggers: pick a platform + event + conditions, choose a queue and cooldown, then assign one or more Actions and either play them all or pick one at random by weight (great for variety).",
+        "Smarter conditions: two conditions on the SAME field are OR'd (e.g. two usernames), so several people can share one chat command; conditions on different fields still all apply. Numeric ranges are preserved.",
+        "Moderator / VIP / subscriber conditions for chat and command alerts.",
+        "Platform-branded, high-contrast badges (including a TikTok logo-style effect); explanatory tooltips throughout the new UI.",
+        "Test buttons: preview an Action on your overlay, or test-fire a Trigger's action selection, without going live."
+      ]
+    },
     {
       "version": "0.1.2-beta",
       "date": "2026-07-19",
