@@ -1,11 +1,30 @@
 {
-  "version": "0.2.1-beta",
-  "release_date": "",
+  "version": "0.2.2-beta",
+  "release_date": "2026-09-03",
   "download_url": "https://github.com/plagrizd/plagCue/releases/latest",
   "changelog": [
     {
+      "version": "0.2.2-beta",
+      "date": "2026-09-03",
+      "github_tag": "v0.2.2-beta",
+      "github_title": "plagCue v0.2.2-beta",
+      "asset_url": "https://github.com/plagrizd/plagCue/releases/download/v0.2.2-beta/plagCue.exe",
+      "notes": [
+        "Gift subs and regular subscriptions are now cleanly separated: the individual subs from a gift bomb no longer fire your subscription trigger (the single gift event handles it), so a 10-sub gift plays one alert instead of ten. Resubs and normal subs are unaffected.",
+        "Placement Editor: when you open placement for an action, its on-canvas size now re-renders to match the actual media — so an action copied/duplicated from a differently-shaped clip no longer keeps the wrong size and scale.",
+        "Random placement now keeps the whole alert inside the bound box you set (it used to let the alert spill outside the box by its own size).",
+        "A subscription shared in chat no longer fires your sub alert twice: Twitch sends a silent event and a shared event for one sub, and plagCue now fires each trigger once (a separate month-milestone trigger can still fire on the shared event with the real month count).",
+        "New trigger events: TikTok Superfan, and Twitch Hype Train (started / level up / ended) — you can gate Hype Train alerts on the level reached or total hype points.",
+        "The Connect page now shows each platform's real Connected / LIVE state, auto-detected from plagComms; and when you go live, alert cooldowns reset so your first alert of the stream isn't held back by a leftover cooldown.",
+        "Redesigned the sidebar: Actions, Triggers, and Queues are now at the top, with Connect, Updates, About, and a collapsible Settings menu (General, Debug, Test Events) tucked at the bottom.",
+        "Text overlays: a trigger can now show up to two lines of text built from the event — e.g. \"{username} gifted {amount} subs!\" — with your choice of font, size, color, bold and outline. Place text at a fixed spot, or attach it to the alert (above/below/centered); it shows for as long as the alert plays.",
+        "Text overlays now have a click-to-insert list of the exact variables each event provides (e.g. subs offer {sub_tier}, {months} and {streak_months}; cheers offer {amount} bits), and you can give the variable values their own color — locked to the text color by default, unlock the padlock to set them apart.",
+        "New trigger event: Twitch custom Bits Power-ups (e.g. \"20 squats now\") now fire their own 'Bits Power-up' event, separate from plain cheers and channel-point redemptions — match on the power-up name or bit cost, and use {reward}/{amount} in text overlays."
+      ]
+    },
+    {
       "version": "0.2.1-beta",
-      "date": "",
+      "date": "2026-08-06",
       "github_tag": "v0.2.1-beta",
       "github_title": "plagCue v0.2.1-beta",
       "asset_url": "https://github.com/plagrizd/plagCue/releases/download/v0.2.1-beta/plagCue.exe",
@@ -21,7 +40,7 @@
     },
     {
       "version": "0.2.0-beta",
-      "date": "2026-08-03",
+      "date": "2026-07-30",
       "github_tag": "v0.2.0-beta",
       "github_title": "plagCue v0.2.0-beta",
       "asset_url": "https://github.com/plagrizd/plagCue/releases/download/v0.2.0-beta/plagCue.exe",
