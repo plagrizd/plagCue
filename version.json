@@ -1,8 +1,16 @@
 {
-  "version": "0.2.2-beta",
-  "release_date": "2026-09-03",
+  "version": "0.2.3-beta",
+  "release_date": "2026-09-20",
   "download_url": "https://github.com/plagrizd/plagCue/releases/latest",
   "changelog": [
+    {
+      "version": "0.2.3-beta",
+      "date": "2026-09-20",
+      "github_tag": "v0.2.3-beta",
+      "github_title": "plagCue v0.2.3-beta",
+      "asset_url": "https://github.com/plagrizd/plagCue/releases/download/v0.2.3-beta/plagCue.exe",
+      "notes": []
+    },
     {
       "version": "0.2.2-beta",
       "date": "2026-09-03",
